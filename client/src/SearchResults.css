@@ -1,0 +1,33 @@
+.search-results-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-results-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-results-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results-container li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.search-results-container li strong {
+  font-weight: bold;
+}
+
+.search-results-container li strong::after {
+  content: ": ";
+}
+
+.search-results-container li strong:first-child::after {
+  content: none;
+}

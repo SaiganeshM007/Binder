@@ -1,0 +1,12 @@
+.home-container {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.home-container h1 {
+  margin-bottom: 20px;
+}
+
+.home-container div {
+  margin-top: 10px;
+}
